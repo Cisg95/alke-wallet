@@ -1,0 +1,68 @@
+body {
+    padding: 50px;
+    border-radius: 15px;
+    display: block;
+    margin: 10px 200px 10px 200px;
+}
+.container {
+    background-color: rgb(127, 255, 212, 0.3);
+    border: 2px solid rgb(33, 45, 153, 0.3);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+/* imagenes interactivas */
+.login {
+    width: 150px;
+    margin-bottom: 20px;
+    position: absolute;
+    rotate: -10deg;
+    margin-left: 110px;
+}
+.cash {
+    width: 100px;
+    margin-bottom: 20px;
+    position: absolute;
+    rotate: 10deg;
+    margin-left: 770px;
+}
+.deposit {
+    width: 150px;
+    margin-bottom: 20px;
+    position: absolute;
+    rotate: -10deg;
+    margin-left: 110px;
+}
+.send {
+    width: 150px;
+    margin-bottom: 20px;
+    position: absolute;
+    rotate: 10deg;
+    margin-left: 770px; 
+}
+.transaction {
+    width: 150px;
+    margin-bottom: 20px;
+    position: absolute;
+    rotate: 10deg;
+}
+
+/* estetica de alertas */
+.trx_detail {
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.trx_detail.show {
+    opacity: 1;
+}
+
+/* estilos lista contactos */
+
+.users_list li:hover {
+  background-color: #d6e5f5;
+}
+
+.users_list li.selected {
+  background-color: #96d5e0;
+  font-weight: bold;
+}
