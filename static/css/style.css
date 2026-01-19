@@ -2,52 +2,58 @@ body {
     padding: 50px;
     border-radius: 15px;
     display: block;
-    margin: 10px 200px 10px 200px;
+    margin: 10px 200px;
 }
+
 .container {
-    background-color: rgb(127, 255, 212, 0.3);
-    border: 2px solid rgb(33, 45, 153, 0.3);
+    background-color: rgba(127, 255, 212, 0.3);
+    border: 2px solid rgba(33, 45, 153, 0.3);
     max-width: 500px;
     margin: 0 auto;
     padding: 50px;
 }
-/* imagenes interactivas */
+
+/* Imágenes interactivas */
 .login {
     width: 150px;
     margin-bottom: 20px;
     position: absolute;
-    rotate: -10deg;
-    margin-left: 110px;
+    transform: rotate(-10deg);
+    left: 110px;
 }
+
 .cash {
     width: 100px;
     margin-bottom: 20px;
     position: absolute;
-    rotate: 10deg;
-    margin-left: 770px;
+    transform: rotate(10deg);
+    left: 1070px;
 }
+
 .deposit {
     width: 150px;
     margin-bottom: 20px;
     position: absolute;
-    rotate: -10deg;
-    margin-left: 110px;
+    transform: rotate(-10deg);
+    left: 310px;
 }
+
 .send {
     width: 150px;
     margin-bottom: 20px;
     position: absolute;
-    rotate: 10deg;
-    margin-left: 770px; 
+    transform: rotate(10deg);
+    left: 1070px; 
 }
+
 .transaction {
     width: 150px;
     margin-bottom: 20px;
     position: absolute;
-    rotate: 10deg;
+    transform: rotate(10deg);
 }
 
-/* estetica de alertas */
+/* Estética de alertas */
 .trx_detail {
     opacity: 0;
     transition: opacity 0.5s ease, transform 0.5s ease;
@@ -56,13 +62,12 @@ body {
     opacity: 1;
 }
 
-/* estilos lista contactos */
-
+/* Estilos lista contactos */
 .users_list li:hover {
-  background-color: #d6e5f5;
+    background-color: #d6e5f5;
 }
 
 .users_list li.selected {
-  background-color: #96d5e0;
-  font-weight: bold;
+    background-color: #96d5e0;
+    font-weight: bold;
 }
